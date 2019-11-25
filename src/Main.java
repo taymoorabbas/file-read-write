@@ -34,6 +34,8 @@ public class Main {
         fileWriter.writeUsingPrintWriter("booker t");
         fileWriter.writeUsingPrintWriter("king mabel");
 
+        MyFileReader reader = new MyFileReader("wrestler.txt");
+        System.out.println(reader.readUsingRandomAccessFile().toString());
 
     }
 }
